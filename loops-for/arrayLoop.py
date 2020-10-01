@@ -1,4 +1,5 @@
 def insert_squares(arr, num):
-	for x in range(1, num + 1):
+	x= 1
+	for x in range(x,num+1):
 		arr.append(x ** 2)
 	return arr
